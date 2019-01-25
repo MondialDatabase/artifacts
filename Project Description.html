@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects - CS 8990&mdash;Fall 2014</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../style/highlight.css" media="screen">
+    <link rel="icon" type="image/png"  href="../8990-icon.png" />
+    <meta name="generator" content="nanoc 3.3.6">
+  </head>
+  <body>
+    <div id="main">
+      <h1 id="major-project">Major Project</h1>
+      <div><em>This document was retrieved on 2019-01-13 from http://ksuweb.kennesaw.edu/~bsetzer/8990fa14/nanoc/output/projects/ for archival purposes.</em></div>
+      <div><em>Content not related to the project description has been removed for brevity.</em></div>
+
+<p>The graduate course will have one major project this term.
+The project will deal with the Mondial database.
+You will create a small web site that will display data from the database.</p>
+
+<p>The first page will let the user choose a country.
+Use a single-selection list for this purpose.
+Populate the list from the database to accommodate any changes.</p>
+
+<p>The first page will also let the user select which data about a country to display.
+Use checkboxes for this.
+The choices include the following information.</p>
+
+<ul>
+  <li>Some choices are about individual pieces of information
+    <ul>
+      <li>population</li>
+      <li>area</li>
+      <li>infant mortality</li>
+      <li>population growth rate</li>
+      <li>government</li>
+      <li>independence data</li>
+      <li>GDP: gross domestic product (in million $)</li>
+      <li>percentage of agriculture of the GDP</li>
+      <li>percentage of services of the GDP</li>
+      <li>percentage of industry of the GDP</li>
+      <li>inflation: inflation rate (per annum)</li>
+      <li>Type of government</li>
+      <li>Independent or not
+        <ul>
+          <li>If independent, give data of independence</li>
+          <li>If not independent, give name of country on which it is depndent</li>
+        </ul>
+      </li>
+      <li>total length of the border of the country</li>
+      <li>capital of the country</li>
+    </ul>
+  </li>
+  <li>Some choices result in lists
+    <ul>
+      <li>List the languages spoken in the country and the percentage of the
+  population the speaks each language</li>
+      <li>List the religions observed in the country and the percentage of the
+  population associated with each religion</li>
+      <li>List the ethnic groups in the country and the percentage of the population
+  in each group.</li>
+      <li>List the countries bordering this country and the length of each border</li>
+      <li>List to which continents the country belongs</li>
+      <li>List the names of the cities in the country</li>
+      <li>List the mountains in the country</li>
+      <li>List the seas in the country</li>
+      <li>List the rivers in the country</li>
+      <li>List the islands in the country  </li>
+      <li>List the lakes in the country</li>
+      <li>List the deserts in the country</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Once the user has made selections, a submit button will lead to a page that displays all of the
+requested information (and only the requested information).</p>
+
+<p>On the first page,
+also provide an <strong>ALL</strong> button that will request all of the information for the selected country.</p>
+
+<p>The mondial database will be available from a PostgreSQL server with the database name <em>mondial</em>,
+the user <em>mondial</em> and the password <em>mondial</em>.</p>
+
+<p>You can test your code by setting up the database yourself.
+Check the <a href="http://www.dbis.informatik.uni-goettingen.de/Mondial/">Mondail site</a>
+for the files to set up the database in PostgreSQL.
+Alternatively, the files are available in the extras folder:</p>
+
+<ul>
+  <li><a href="http://cs.kennesaw.edu/~bsetzer/4320fa14/extra/databases/mondial-schema-postgresql-2010.sql">mondial-schema-postgresql-2010.sql</a>:
+  run this script first to set up the necessary tables</li>
+  <li><a href="http://cs.kennesaw.edu/~bsetzer/4320fa14/extra/databases/mondial-inputs-postgresql-2010.sql">mondial-inputs-postgresql-2010.sql</a>
+  run this script second to insert the data</li>
+</ul>
+
+<p>Use  templates to generate the two pages, preferably the Jinja2 templating package discussed in class.</p>
+    </div>
+  </body>
+</html>
