@@ -53,18 +53,18 @@
 * inflationRatePerAnnum: Number
 * totalLengthOfBorder: Number
 * capital: String
-* languageData: List<CountryDatum>
-* religionData: List<CountryDatum>
-* ethnicityData: List<CountryDatum>
-* borderingCountryData: List<CountryDatum>
-* continentData: List<String>
-* cityData: List<String>
-* mountainData: List<String>
-* seaData: List<String>
-* riverData: List<String>
-* islandData: List<String>
-* lakeData: List<String>
-* desertData: List<String>
+* languageData: List of CountryDatum
+* religionData: List of CountryDatum
+* ethnicityData: List of CountryDatum
+* borderingCountryData: List of CountryDatum
+* continentData: List of String
+* cityData: List of String
+* mountainData: List of String
+* seaData: List of String
+* riverData: List of String
+* islandData: List of String
+* lakeData: List of String
+* desertData: List of String
 
 # Data Types
 
